@@ -68,6 +68,10 @@ MyProject/
 │── pipeline.png              # Workflow diagram
 ```
 
+## Download Links
+- **Full Project Files**: [Baidu Drive](https://pan.baidu.com/s/1upF7XRk6Oduj1johlCmofw?pwd=1145) (Access Code: `1145`)
+- **Generated Dataset**: [Baidu Drive](https://pan.baidu.com/s/1qhz5DWNWlndZ08ENH2SJ8w?pwd=1145) (Access Code: `1145`)
+
 ## Notes
 - Do **not** directly rename `SelfBlendedImages-modified` or `SimSwap-modified` to replace the original repositories.
 - Ensure you **overwrite** the original files with the modifications instead.
