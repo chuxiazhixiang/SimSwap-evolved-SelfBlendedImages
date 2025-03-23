@@ -1,0 +1,20 @@
+创建环境		conda create --name SSSBI python=3.9
+激活环境 		activate SSSBI
+安装numpy	pip install numpy==1.26.3
+安装pytorch	cuda12.1	pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+			或者cpu，两个选一个		pip3 install torch torchvision torchaudio
+安装sklearn	pip install scikit-learn==1.5.1
+			pip install scikit-image==0.24.0
+安装dlib		参照文件夹里的配置（因为是3.9所以是19.22.1）这个dlib没开启GPU加速，但是生成数据集也用不到加速
+安装albumentations	pip install albumentations==1.4.11
+				pip install albucore==0.0.12
+安装imutils	pip install imutils==0.5.4
+安装pandas	pip install pandas==2.2.2
+安装matplotlib	pip install matplotlib==3.9.2
+安装imgaug	pip install imgaug==0.4.0
+安装tqdm		pip install tqdm
+
+依赖冲突？	pip install --upgrade pip（根据提示要改一下）
+			pip install "requests>=2.22.0,<3.0"
+			pip install anyio sniffio
+			pip install "wrapt>=1.0.0,<2.0.0"
